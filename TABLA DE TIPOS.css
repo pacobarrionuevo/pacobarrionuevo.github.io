@@ -1,0 +1,77 @@
+#títuloTips {
+    background-color: green;
+    font-family: 'Ebrima';
+    font-size: 50px;
+    color: white;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: purple;
+}
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+}
+#navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+#navegador li a {
+    padding: 2px 7px 7px 7px;
+    color: #060000;
+    background-color: #eeeeee;
+    border: 0.5px solid #ccc;
+    text-decoration: none;
+    font-family: 'Ebrima';
+}
+
+#navegador li a:hover{
+    background-color: #a3d3a7;
+    color: #000000;
+    padding: 3px 8px 8px 8px;
+    font-size: 18px;
+}
+body {
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#centrar {
+    text-align: center;
+}
+#textoPreTabla {
+    background-color: white;
+    opacity: 0.95;
+    font-family: 'Ebrima';
+    font-size: larger;
+    padding: 1px;
+    position: relative;
+    left: 1px;
+    right: 16px;
+}
+#tablaEntera {
+    border-color: solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-family: 'Ebrima';
+    width: 100%;
+    border-style:dotted;
+    border-width: 4px;
+    border-color: rgb(27, 150, 68);
+    color: rgb(0, 0, 0);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: rgba(248,248,255,255);
+    padding: 5px 0 10px 0;
+}
+.icono {
+    height: 72.5px;
+}
+#footer{
+    color: white;
+    font-family: 'Ebrima';
+}

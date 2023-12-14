@@ -1,0 +1,106 @@
+#título {
+    text-align: center;
+    font-family: Silkscreen-Regular;
+    background: linear-gradient(limegreen, lime);
+    color: white;
+    font-size: 55px;
+}
+@font-face {
+    font-family: Silkscreen-Regular;
+    src: url(Silkscreen-Regular.ttf) format('truetype')
+}
+#centrar {
+    text-align: center;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: purple;
+}
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+}
+#navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+#navegador li a {
+    padding: 2px 7px 7px 7px;
+    color: #060000;
+    background-color: #eeeeee;
+    border: 0.5px solid #ccc;
+    text-decoration: none;
+    font-family: 'Ebrima';
+}
+
+#navegador li a:hover{
+    background-color: #a3d3a7;
+    color: #000000;
+    padding: 3px 8px 8px 8px;
+    font-size: 18px;
+}
+
+body {
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#texto {
+    background-color: white;
+    opacity: 0.95;
+    font-family: 'Ebrima';
+    font-size: larger;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    left: 420px;
+    right: 420px;
+    top: 150px;
+}
+#foto1{
+    object-position:right;
+}
+#footerPáginaPrincipal {
+    color: white;
+    font-family: 'Ebrima';
+    position: relative;
+    top: 800px;
+}
+
+#footer{
+    color: white;
+    font-family: 'Ebrima';
+}
+
+#Formulario {
+    border:1px;
+    border: solid rgb(5, 110, 7);
+    border-radius: 20px;
+    background-color: limegreen;
+    font-family: 'Ebrima';
+    text-align:center;
+    position:relative;
+    top: 800px;
+    bottom: 1px;
+}
+#formulario{
+    color: rgb(255, 255, 255);
+    border:1px;
+    border: solid rgb(5, 110, 7);
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(106, 255, 47);
+}
+#finalFormulario {
+    border:1px;
+    border: solid rgb(5, 110, 7);
+    border-radius: 20px;
+    background-color: limegreen;
+    font-family: 'Ebrima';
+    text-align:center;
+    position:relative;
+    top: 790px;
+}
